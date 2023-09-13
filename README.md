@@ -56,6 +56,7 @@ conda activate {env_name}
 conda install pytorch==1.7.0 torchvision==0.8.0 torchaudio==0.7.0 cudatoolkit=11.0 -c pytorch
 conda install seaborn
 conda install -c anaconda scikit-image
+pip install cython==0.29.33
 pip install mmcv-full==1.2.7 -f https://download.openmmlab.com/mmcv/dist/cu110/torch1.7/index.html
 pip install motmetrics opencv-python mmdet==2.10.0
 cd {project_folder}
